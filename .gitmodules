@@ -1,0 +1,6 @@
+[submodule "services/nakidai.ru"]
+	path = services/nakidai.ru
+	url = https://github.com/nakidai/nakidai.ru
+[submodule "services/pwn3t.ru"]
+	path = services/pwn3t.ru
+	url = https://github.com/nakidai/pwn3t.ru
