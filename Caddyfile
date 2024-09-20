@@ -1,7 +1,3 @@
-{
-    cache
-}
-
 nakidai.ru {
     encode gzip
     root * /srv/www/nakidai.ru
@@ -21,16 +17,10 @@ pwn3t.ru {
 }
 
 ptc.pwn3t.ru {
-    cache {
-        ttl 24h
-    }
     reverse_proxy localhost:8080
 }
 
 stp.pwn3t.ru {
-    cache {
-        ttl 2m
-    }
     reverse_proxy localhost:8081
 }
 
