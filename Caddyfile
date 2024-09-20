@@ -15,3 +15,15 @@ pwn3t.ru {
     root * /srv/www/pwn3t.ru
     file_server
 }
+
+ptc.pwn3t.ru {
+    reverse_proxy localhost:8080
+}
+
+stp.pwn3t.ru {
+    reverse_proxy localhost:8081
+}
+
+latexds.pwn3t.ru {
+    reverse_proxy localhost:8082
+}
