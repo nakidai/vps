@@ -10,6 +10,10 @@ i.nakidai.ru {
     file_server
 }
 
+pronouns.nakidai.ru {
+    redir https://pronouns.page/u/nakidai
+}
+
 pwn3t.ru {
     encode gzip
     root * /srv/www/pwn3t.ru
