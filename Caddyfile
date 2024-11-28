@@ -14,6 +14,10 @@ pronouns.nakidai.ru {
     redir https://pronouns.page/u/nakidai
 }
 
+matrix.nakidai.ru {
+    redir "https://matrix.to/#/@nakidai:matrix.org"
+}
+
 pwn3t.ru {
     encode gzip
     root * /srv/www/pwn3t.ru
