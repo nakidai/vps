@@ -35,3 +35,9 @@ stp.pwn3t.ru {
 latexds.pwn3t.ru {
     reverse_proxy localhost:8082
 }
+
+беруврот.рф {
+    encode gzip
+    root * /srv/www/beruvrot.rf
+    file_server
+}
