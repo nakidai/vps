@@ -1,12 +1,12 @@
 nakidai.ru {
     encode gzip
-    root * ./www/nakidai.ru
+    root * /srv/www/nakidai.ru
     file_server
 }
 
 i.nakidai.ru {
     encode gzip
-    root * ./www/i.nakidai.ru
+    root * /srv/www/i.nakidai.ru
     file_server
 }
 
@@ -20,7 +20,7 @@ matrix.nakidai.ru {
 
 pwn3t.ru {
     encode gzip
-    root * ./www/pwn3t.ru
+    root * /srv/www/pwn3t.ru
     file_server
 }
 
@@ -38,6 +38,6 @@ latexds.pwn3t.ru {
 
 беруврот.рф {
     encode gzip
-    root * ./www/beruvrot.rf
+    root * /srv/www/beruvrot.rf
     file_server
 }
