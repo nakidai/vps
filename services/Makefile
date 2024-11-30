@@ -1,6 +1,6 @@
-all: nakidai.ru pwn3t.ru beruvrot.rf
+all: nakidai.ru pwn3t.ru
 
-nakidai.ru pwn3t.ru beruvrot.rf:
+nakidai.ru pwn3t.ru:
 	env WEBROOT="${WEBROOT}/$@" make -C "$@" clean install
 
-.PHONY: all nakidai.ru pwn3t.ru beruvrot.rf
+.PHONY: all nakidai.ru pwn3t.ru

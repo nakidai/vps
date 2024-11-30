@@ -4,6 +4,6 @@
 [submodule "services/pwn3t.ru"]
 	path = services/pwn3t.ru
 	url = https://github.com/nakidai/pwn3t.ru
-[submodule "services/beruvrot.rf"]
-	path = services/beruvrot.rf
-	url = https://github.com/nakidai/beruvrot.rf
+[submodule "beretvrot"]
+	path = beretvrot
+	url = https://github.com/6epeMBPoT/caddy
