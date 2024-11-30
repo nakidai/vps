@@ -1,15 +1,11 @@
-all: www beretvrot/www
+all: www
 
 www/i.nakidai.ru:
 	mkdir -p $@
 
-services:
-	env WEBROOT="$$(realpath www)" make -C $@
-
-beretvrot/www:
-	make -C beretvrot
-
-www: www/i.nakidai.ru services
+www: www/i.nakidai.ru
+	env WEBROOT="$$(realpath www)" make -C services
+	env WEBROOT="$$(realpath www)" make -C beretvrot
 
 run:
 	caddy start
@@ -17,4 +13,4 @@ run:
 reload:
 	caddy reload
 
-.PHONY: all www services www/i.nakidai.ru
+.PHONY: all www www/i.nakidai.ru
