@@ -41,3 +41,7 @@ xn--90aci1bibpe.xn--p1ai {
     root * /srv/www/beruvrot.rf
     file_server
 }
+
+xn--h1abpig8f.xn--90acia0cjcod.xn--p1ai {
+    redir https://xn--90acia0cjcod.yoricya.ru/
+}
