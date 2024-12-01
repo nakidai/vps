@@ -6,4 +6,4 @@
 	url = https://github.com/nakidai/pwn3t.ru
 [submodule "beretvrot"]
 	path = beretvrot
-	url = https://github.com/6epeMBPoT/caddy
+	url = git@github.com:6epeMBPoT/caddy
