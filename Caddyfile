@@ -36,4 +36,8 @@ latexds.pwn3t.ru {
     reverse_proxy localhost:8082
 }
 
+qubane.pwn3t.ru {
+    reverse_proxy qubane.ru:80
+}
+
 import /var/lib/caddy/vps/beretvrot/Caddyfile
