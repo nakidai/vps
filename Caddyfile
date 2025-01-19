@@ -41,7 +41,7 @@ qubane.pwn3t.ru {
         to qubane.ru:80
         header_up Host qubane.ru
     }
-    handle_path /css/styles.css {
+    header /css/styles.css {
         Content-Type text/css
     }
 }
