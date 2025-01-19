@@ -37,7 +37,10 @@ latexds.pwn3t.ru {
 }
 
 qubane.pwn3t.ru {
-    reverse_proxy qubane.ru:80
+    reverse_proxy {
+        to qubane.ru:80
+        header_up Host qubane.ru
+    }
 }
 
 import /var/lib/caddy/vps/beretvrot/Caddyfile
