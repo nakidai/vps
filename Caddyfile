@@ -1,7 +1,9 @@
 nakidai.ru {
     encode gzip
     root * /srv/www/nakidai.ru
-    file_server
+    file_server {
+        browse
+    }
 }
 
 i.nakidai.ru {
