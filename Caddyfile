@@ -50,4 +50,14 @@ qubane.pwn3t.ru {
     }
 }
 
+buttplug.ru {
+    respond 200 {
+        body <<EOF
+            hewwo there >w<
+            im nyaki-chan ^^
+            EOF
+        close
+    }
+}
+
 import /var/lib/caddy/vps/beretvrot/Caddyfile
