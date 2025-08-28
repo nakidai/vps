@@ -50,6 +50,12 @@ qubane.pwn3t.ru {
     }
 }
 
+windows.pwn3t.ru {
+	respond 200 {
+		close
+	}
+}
+
 buttplug.ru {
     respond 200 {
         body <<EOF
