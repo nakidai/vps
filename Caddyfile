@@ -66,4 +66,12 @@ buttplug.ru {
     }
 }
 
+d04.ru {
+    encode gzip
+    root * /srv/www/nakidai.ru
+    file_server {
+        browse
+    }
+}
+
 import /var/lib/caddy/vps/beretvrot/Caddyfile
