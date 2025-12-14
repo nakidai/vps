@@ -1,4 +1,4 @@
-nakidai.ru {
+nakidai.ru, nakidai.org {
     encode gzip
     root * /srv/www/nakidai.ru
     file_server {
